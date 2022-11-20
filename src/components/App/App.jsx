@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import Container from './App.styled';
-import WidgetSection from '../WidgetSection';
 import WidgetStatistics from '../WidgetStatistics';
+import WidgetSection from '../WidgetSection';
 import FeedbackOptions from '../FeedbackOptions';
 import Notification from '../Notification';
 
