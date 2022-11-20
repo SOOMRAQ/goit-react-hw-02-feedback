@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 import Container from './App.styled';
-import WidgetSection from './components/WidgetSection';
-import WidgetStatistics from './components/WidgetStatistics';
-import FeedbackOptions from './components/FeedbackOptions';
-import Notification from './components/Notification';
+import WidgetSection from '../WidgetSection';
+import WidgetStatistics from '../WidgetStatistics';
+import FeedbackOptions from '../FeedbackOptions';
+import Notification from '../Notification';
 
 class App extends Component {
   state = {
