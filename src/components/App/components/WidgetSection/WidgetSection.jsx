@@ -1,5 +1,6 @@
-import { Section, Title } from './WidgetSection.styled';
+import PropTypes from 'prop-types';
 
+import { Section, Title } from './WidgetSection.styled';
 const WidgetSection = ({ title, children }) => {
   return (
     <Section>
@@ -10,3 +11,7 @@ const WidgetSection = ({ title, children }) => {
 };
 
 export default WidgetSection;
+
+WidgetSection.propTypes = {
+  title: PropTypes.string,
+};

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Statistics, StatsValue } from './WidgetStatistics.styled';
 
 const WidgetStatistics = ({
@@ -23,3 +24,11 @@ const WidgetStatistics = ({
 };
 
 export default WidgetStatistics;
+
+WidgetStatistics.propTypes = {
+  good: PropTypes.number,
+  neutral: PropTypes.number,
+  bad: PropTypes.number,
+  total: PropTypes.number,
+  positivePercentage: PropTypes.number,
+};
