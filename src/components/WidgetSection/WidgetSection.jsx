@@ -14,4 +14,5 @@ export default WidgetSection;
 
 WidgetSection.propTypes = {
   title: PropTypes.string,
+  children: PropTypes.node.isRequired,
 };
